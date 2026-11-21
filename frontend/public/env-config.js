@@ -4,5 +4,5 @@
 // since output: "export" bakes process.env.* into the JS bundle at `docker build`
 // time and can no longer react to `docker run -e ...`.
 window.__ENV__ = {
-  NEXT_PUBLIC_API_URL: '',
+  NEXT_PUBLIC_API_URL: 'http://localhost:8080',
 }

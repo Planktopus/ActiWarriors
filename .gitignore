@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/.mvn/
+
+# Build output
+dist/
+build/
+.next/
+out/
+target/
+backend/target/
+frontend/.next/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and OS
+.vscode/
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+hs_err_pid*
+
+# Coverage and caches
+coverage/
+.nyc_output/
+.cache/
