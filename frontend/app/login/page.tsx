@@ -22,7 +22,7 @@ export default function LoginPage() {
   }
 
   return <main className="min-h-screen bg-gradient-to-br from-indigo-50 via-white to-sky-50 grid place-items-center px-4">
-    <form onSubmit={submit} className="w-full max-w-md rounded-2xl border border-slate-200 bg-white p-8 shadow-xl">
+    <form onSubmit={submit} className="w-full max-w-md rounded-2xl border border-slate-200 bg-white p-5 shadow-xl sm:p-8">
       <div className="mb-8 text-center"><div className="mx-auto mb-3 grid h-12 w-12 place-items-center rounded-xl bg-indigo-600 text-xl text-white">A</div>
         <h1 className="text-2xl font-bold text-slate-900">ActiWarriors</h1><p className="mt-1 text-sm text-slate-500">Log in op je trainingsaccount</p></div>
       {error && <div className="mb-4 rounded-lg bg-red-50 p-3 text-sm text-red-700">{error}</div>}
